@@ -260,6 +260,273 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+
+      {/* ========================================
+          LEADERSHIP — FOUNDER & EXECUTIVE DIRECTOR
+      ======================================== */}
+      <section
+        id="leadership"
+        className="relative scroll-mt-24 overflow-hidden border-b border-white/10 bg-[#07101d]"
+      >
+        <div
+          aria-hidden="true"
+          className="absolute -left-24 top-24 h-80 w-80 rounded-full bg-amber-500/10 blur-3xl"
+        />
+
+        <div className="relative mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-28">
+          {/* Section heading */}
+          <div className="max-w-3xl">
+            <p className="mb-4 text-sm font-semibold uppercase tracking-[0.28em] text-amber-400">
+              Leadership
+            </p>
+
+            <h2 className="font-serif text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">
+              Meet our Founder &amp; Executive Director.
+            </h2>
+
+            <div className="mt-8 h-px w-20 bg-amber-400" />
+          </div>
+
+          {/* Profile */}
+          <div className="mt-14 grid gap-12 lg:grid-cols-[0.8fr_1.2fr] lg:gap-20">
+            {/* Portrait + overview */}
+            <div>
+              <div className="relative">
+                <div
+                  aria-hidden="true"
+                  className="absolute -inset-4 rounded-[2rem] bg-amber-400/10 blur-2xl"
+                />
+
+                <div className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-slate-900 shadow-2xl">
+                  <div className="relative aspect-[4/5]">
+                    <Image
+                      src="/images/team/simeon-bangura-founder.jpg"
+                      alt="Simeon Bangura, Founder and Executive Director of Music Heals Initiative Sierra Leone, smiling while playing an acoustic guitar"
+                      fill
+                      sizes="(max-width: 1024px) 100vw, 40vw"
+                      className="object-cover"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div className="mt-8 rounded-2xl border border-white/10 bg-white/[0.03] p-6">
+                <p className="font-serif text-2xl font-bold text-white">
+                  Simeon Bangura
+                </p>
+
+                <p className="mt-1 text-sm font-semibold uppercase tracking-[0.18em] text-amber-400">
+                  Founder &amp; Executive Director
+                </p>
+
+                <dl className="mt-6 space-y-4 text-sm">
+                  <div>
+                    <dt className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-400">
+                      Organisation
+                    </dt>
+                    <dd className="mt-1 text-slate-200">
+                      Music Heals Initiative Sierra Leone (MHISL)
+                    </dd>
+                  </div>
+
+                  <div>
+                    <dt className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-400">
+                      Location
+                    </dt>
+                    <dd className="mt-1 text-slate-200">
+                      Freetown, Sierra Leone
+                    </dd>
+                  </div>
+
+                  <div>
+                    <dt className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-400">
+                      Teaching Music Since
+                    </dt>
+                    <dd className="mt-1 text-slate-200">2013</dd>
+                  </div>
+                </dl>
+              </div>
+            </div>
+
+            {/* Profile copy */}
+            <div>
+              <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-400">
+                Executive Profile
+              </h3>
+
+              <div className="mt-5 space-y-6 text-base leading-8 text-slate-300 sm:text-lg">
+                <p>
+                  <span className="font-semibold text-white">Simeon Bangura</span>{" "}
+                  is a Sierra Leonean music educator, social development
+                  advocate, and the Founder and Executive Director of Music
+                  Heals Initiative Sierra Leone (MHISL).
+                </p>
+
+                <p>
+                  With music teaching experience dating back to 2013, he founded
+                  MHISL in 2017 following volunteer work at Don Bosco Fambul,
+                  where he provided music-based psychosocial support to families
+                  displaced by the Freetown mudslide disaster.
+                </p>
+
+                <p>
+                  Today, he leads the organisation&rsquo;s strategic
+                  development, using music and the creative arts to advance
+                  child protection, youth rehabilitation, music education,
+                  psychosocial well-being and social inclusion across Sierra
+                  Leone.
+                </p>
+              </div>
+
+              <blockquote className="mt-10 border-l-2 border-amber-400 bg-white/[0.03] px-6 py-5">
+                <p className="font-serif text-xl italic leading-8 text-slate-100">
+                  &ldquo;Music is far more than entertainment&mdash;it is a
+                  vital bridge to healing, dignity and transformation.&rdquo;
+                </p>
+                <footer className="mt-3 text-sm font-semibold text-amber-400">
+                  &mdash; Simeon Bangura
+                </footer>
+              </blockquote>
+            </div>
+          </div>
+
+          {/* Core expertise */}
+          <div className="mt-20">
+            <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-amber-400">
+              Core Expertise
+            </h3>
+
+            <div className="mt-6 grid gap-6 md:grid-cols-3">
+              {[
+                {
+                  title: "Music Education & Pedagogy",
+                  body: "Music instruction, music theory and brass education, including preparing students for internationally recognised examinations such as RSL Awards.",
+                },
+                {
+                  title: "Psychosocial Support & Music-Based Care",
+                  body: "Applying music-based interventions to support emotional well-being, cognitive engagement and recovery from trauma.",
+                },
+                {
+                  title: "Programme Leadership & Governance",
+                  body: "Developing community-based arts programmes, providing strategic leadership and building partnerships that advance social impact through music.",
+                },
+              ].map((item) => (
+                <div
+                  key={item.title}
+                  className="rounded-2xl border border-white/10 bg-white/[0.03] p-6 transition hover:border-amber-400/40"
+                >
+                  <h4 className="font-serif text-xl font-bold text-white">
+                    {item.title}
+                  </h4>
+                  <p className="mt-3 text-sm leading-7 text-slate-300">
+                    {item.body}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Key achievements */}
+          <div className="mt-16">
+            <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-amber-400">
+              Key Achievements
+            </h3>
+
+            <ol className="mt-6 grid gap-6 md:grid-cols-3">
+              {[
+                {
+                  title: "Organisational Development",
+                  body: "Founded Music Heals Initiative Sierra Leone in 2017, establishing programmes that bring music and psychosocial support to correctional facilities, care centres and communities.",
+                },
+                {
+                  title: "Partnerships & Resource Mobilisation",
+                  body: "Secured musical instruments, digital learning equipment and international partnerships to strengthen programme delivery.",
+                },
+                {
+                  title: "Youth Education & Empowerment",
+                  body: "Developed structured music education that equips underserved young people with practical skills and access to internationally recognised music qualifications.",
+                },
+              ].map((item, index) => (
+                <li
+                  key={item.title}
+                  className="rounded-2xl border border-white/10 bg-[#0a1422] p-6"
+                >
+                  <p className="font-serif text-3xl font-bold text-amber-400">
+                    {String(index + 1).padStart(2, "0")}
+                  </p>
+                  <h4 className="mt-3 text-lg font-semibold text-white">
+                    {item.title}
+                  </h4>
+                  <p className="mt-3 text-sm leading-7 text-slate-300">
+                    {item.body}
+                  </p>
+                </li>
+              ))}
+            </ol>
+          </div>
+
+          {/* Official contact */}
+          <div className="mt-16 rounded-2xl border border-white/10 bg-white/[0.03] p-6 sm:p-8">
+            <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-amber-400">
+              Official Contact
+            </h3>
+
+            <dl className="mt-6 grid gap-6 text-sm sm:grid-cols-2 lg:grid-cols-4">
+              <div>
+                <dt className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-400">
+                  Email
+                </dt>
+                <dd className="mt-2 break-words">
+                  <a
+                    href="mailto:info@musichealsinitiative.org"
+                    className="text-white transition hover:text-amber-400"
+                  >
+                    info@musichealsinitiative.org
+                  </a>
+                </dd>
+              </div>
+
+              <div>
+                <dt className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-400">
+                  Telephone
+                </dt>
+                <dd className="mt-2">
+                  <a
+                    href="tel:+23276967247"
+                    className="text-white transition hover:text-amber-400"
+                  >
+                    +232 76 967247
+                  </a>
+                </dd>
+              </div>
+
+              <div>
+                <dt className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-400">
+                  Website
+                </dt>
+                <dd className="mt-2">
+                  <a
+                    href="https://www.musichealsinitiative.org"
+                    className="text-white transition hover:text-amber-400"
+                  >
+                    www.musichealsinitiative.org
+                  </a>
+                </dd>
+              </div>
+
+              <div>
+                <dt className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-400">
+                  Office Address
+                </dt>
+                <dd className="mt-2 leading-6 text-slate-200">
+                  Collegiate Senior Secondary School Compound, Wilkinson Road,
+                  Freetown, Sierra Leone
+                </dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
