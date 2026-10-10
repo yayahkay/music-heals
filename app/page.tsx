@@ -1,5 +1,6 @@
 import Image from "next/image";
 import SiteHeader from "@/components/SiteHeader";
+import SiteFooter from "@/components/SiteFooter";
 export default function Home() {
   return (
     <main className="min-h-screen bg-white text-slate-900">
@@ -547,21 +548,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="bg-[#0d343c] px-6 py-10 text-white lg:px-8">
-        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-5 md:flex-row">
-          <div>
-            <p className="font-bold">Music Heals Sierra Leone</p>
-            <p className="mt-1 text-sm text-slate-300">
-              Music. Purpose. Empowerment.
-            </p>
-          </div>
-
-          <p className="text-sm text-slate-400">
-            © 2026 Music Heals Sierra Leone. All rights reserved.
-          </p>
-        </div>
-      </footer>
+          <SiteFooter />
     </main>
   );
 }

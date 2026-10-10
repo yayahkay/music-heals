@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import SiteHeader from "@/components/SiteHeader";
+import SiteFooter from "@/components/SiteFooter";
 import { useEffect, useMemo, useState } from "react";
 
 type Category =
@@ -643,33 +644,6 @@ export default function GalleryPage() {
       </section>
 
       {/* ========================================
-          Footer
-      ======================================== */}
-
-      <footer className="border-t border-white/10 bg-[#0A1219] px-6 py-10 lg:px-8">
-
-        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-5 md:flex-row">
-
-          <div>
-            <p className="font-bold">
-              Music Heals Initiative Sierra Leone
-            </p>
-
-            <p className="mt-1 text-sm text-slate-400">
-              Music. Purpose. Empowerment.
-            </p>
-          </div>
-
-          <p className="text-sm text-slate-500">
-            © 2026 Music Heals Sierra Leone. All rights
-            reserved.
-          </p>
-
-        </div>
-
-      </footer>
-
-      {/* ========================================
           Accessible Lightbox
       ======================================== */}
 
@@ -783,7 +757,7 @@ export default function GalleryPage() {
         </div>
 
       )}
-
+          <SiteFooter />
     </main>
   );
 }
