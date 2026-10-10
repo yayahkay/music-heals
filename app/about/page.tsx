@@ -1,86 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
+import SiteHeader from "@/components/SiteHeader";
 
 export default function AboutPage() {
   return (
     <main className="min-h-screen bg-[#07101d] text-white">
 
-      {/* ========================================
-          NAVIGATION
-      ======================================== */}
-      <header className="border-b border-white/10 bg-[#07111f]">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 lg:px-8">
-
-  <Link href="/" className="flex items-center">
-  <Image
-    src="/images/logo/music-heals-sierra-leone-logo.jpg"
-    alt="Music Heals Sierra Leone"
-    width={140}
-    height={60}
-    className="h-auto w-[120px]"
-    priority
-  />
-  </Link>
-
-          <nav className="hidden items-center gap-4 md:flex">
-  <Link
-    href="/"
-    className="rounded-lg px-3 py-2 text-lg font-medium text-white transition-all duration-300 hover:bg-white/10 hover:text-[#f2b900]"
-  >
-    Home
-  </Link>
-
-  <Link
-    href="/about"
-    className="rounded-lg px-3 py-2 text-lg font-medium text-[#f2b900] transition-all duration-300"
-  >
-    About
-  </Link>
-
-  <Link
-    href="/#programs"
-    className="rounded-lg px-3 py-2 text-lg font-medium text-white transition-all duration-300 hover:bg-white/10 hover:text-[#f2b900]"
-  >
-    Programs
-  </Link>
-
-  <Link
-    href="/#impact"
-    className="rounded-lg px-3 py-2 text-lg font-medium text-white transition-all duration-300 hover:bg-white/10 hover:text-[#f2b900]"
-  >
-    Impact
-  </Link>
-
-  <Link
-    href="/gallery"
-    className="rounded-lg px-3 py-2 text-lg font-medium text-white transition-all duration-300 hover:bg-white/10 hover:text-[#f2b900]"
-  >
-    Gallery
-  </Link>
-
-  <Link
-    href="/#safeguarding"
-    className="rounded-lg px-3 py-2 text-lg font-medium text-white transition-all duration-300 hover:bg-white/10 hover:text-[#f2b900]"
-  >
-    Safeguarding
-  </Link>
-
-  <Link
-    href="/contact"
-    className="rounded-lg px-3 py-2 text-lg font-medium text-white transition-all duration-300 hover:bg-white/10 hover:text-[#f2b900]"
-  >
-    Contact
-  </Link>
-</nav>
-
-<Link
-  href="/contact"
-  className="rounded-full bg-[#f2b900] px-5 py-3 text-sm font-semibold text-[#07111f]"
->
-  Get Involved
-</Link>
-        </div>
-      </header>
+            <SiteHeader />
 
       {/* ========================================
           ABOUT HERO

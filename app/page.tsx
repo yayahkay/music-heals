@@ -1,54 +1,12 @@
 import Image from "next/image";
-
+import SiteHeader from "@/components/SiteHeader";
 export default function Home() {
   return (
     <main className="min-h-screen bg-white text-slate-900">
-      {/* Navigation */}
-      <header className="fixed left-0 top-0 z-50 w-full border-b border-slate-200/80 bg-white/95 backdrop-blur">
-        <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
-          <a href="#" className="flex items-center">
-            <Image
-              src="/images/logo/music-heals-sierra-leone-logo.jpg"
-              alt="Music Heals Sierra Leone logo"
-              width={170}
-              height={80}
-              className="h-12 w-auto object-contain"
-              priority
-            />
-          </a>
-
-                              <div className="hidden items-center gap-4 md:flex">
-            <a href="/about" className="rounded-lg px-3 py-2 text-lg font-medium transition-all duration-300 hover:bg-slate-100 hover:text-[#ed761d]">
-              About
-            </a>
-            <a href="#programs" className="rounded-lg px-3 py-2 text-lg font-medium transition-all duration-300 hover:bg-slate-100 hover:text-[#ed761d]">
-              Programs
-            </a>
-            <a href="#impact" className="rounded-lg px-3 py-2 text-lg font-medium transition-all duration-300 hover:bg-slate-100 hover:text-[#ed761d]">
-              Impact
-            </a>
-            <a href="#gallery" className="rounded-lg px-3 py-2 text-lg font-medium transition-all duration-300 hover:bg-slate-100 hover:text-[#ed761d]">
-              Gallery
-            </a>
-            <a href="#safeguarding" className="rounded-lg px-3 py-2 text-lg font-medium transition-all duration-300 hover:bg-slate-100 hover:text-[#ed761d]">
-              Safeguarding
-            </a>
-            <a href="#contact" className="rounded-lg px-3 py-2 text-lg font-medium transition-all duration-300 hover:bg-slate-100 hover:text-[#ed761d]">
-              Contact
-            </a>
-          </div>
-
-          <a
-            href="#support"
-            className="rounded-full bg-[#ed761d] px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-[#d96312]"
-          >
-            Get Involved
-          </a>
-        </nav>
-      </header>
+            <SiteHeader />
 
       {/* Hero */}
-      <section className="relative min-h-screen overflow-hidden pt-20">
+            <section className="relative min-h-[calc(100vh-80px)] overflow-hidden">
         <Image
           src="/images/hero/hero-live-music-performance.jpg"
           alt="Music Heals Sierra Leone musicians performing together"

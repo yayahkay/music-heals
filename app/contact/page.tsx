@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState, type FormEvent } from "react";
+import SiteHeader from "@/components/SiteHeader";
 
 const MAP_URL = "https://share.google/ZWNzR1wXpl2151nUn";
 
@@ -71,72 +72,7 @@ export default function ContactPage() {
 
   return (
     <main className="min-h-screen bg-[#f7f9f8] text-slate-900">
-      {/* Navigation */}
-      <header className="border-b border-slate-200 bg-white">
-        <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
-          <Link href="/" className="flex items-center">
-            <Image
-              src="/images/logo/music-heals-sierra-leone-logo.jpg"
-              alt="Music Heals Sierra Leone logo"
-              width={170}
-              height={80}
-              className="h-12 w-auto object-contain"
-              priority
-            />
-          </Link>
-
-          <div className="hidden items-center gap-7 md:flex">
-  <Link
-    href="/"
-    className="text-sm font-medium text-slate-700 transition hover:text-[#123f49]"
-  >
-    Home
-  </Link>
-
-  <Link
-    href="/about"
-    className="text-sm font-medium text-slate-700 transition hover:text-[#123f49]"
-  >
-    About
-  </Link>
-
-  <Link
-    href="/#programs"
-    className="text-sm font-medium text-slate-700 transition hover:text-[#123f49]"
-  >
-    Programs
-  </Link>
-
-  <Link
-    href="/#impact"
-    className="text-sm font-medium text-slate-700 transition hover:text-[#123f49]"
-  >
-    Impact
-  </Link>
-
-  <Link
-    href="/gallery"
-    className="text-sm font-medium text-slate-700 transition hover:text-[#123f49]"
-  >
-    Gallery
-  </Link>
-
-  <Link
-    href="/contact"
-    className="text-sm font-bold text-[#ed761d]"
-  >
-    Contact
-  </Link>
-  </div>
-
-          <a
-            href="#get-involved"
-            className="rounded-full bg-[#ed761d] px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-[#d96312]"
-          >
-            Get Involved
-          </a>
-        </nav>
-      </header>
+            <SiteHeader />
 
       {/* Page Header */}
       <section className="bg-[#123f49] px-6 py-20 text-white lg:px-8">

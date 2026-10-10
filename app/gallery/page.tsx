@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import SiteHeader from "@/components/SiteHeader";
 import { useEffect, useMemo, useState } from "react";
 
 type Category =
@@ -392,80 +393,7 @@ export default function GalleryPage() {
   return (
     <main className="min-h-screen bg-[#101820] text-white">
 
-      {/* ========================================
-          Navigation
-      ======================================== */}
-
-      <header className="border-b border-white/10 bg-[#101820]">
-        <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
-
-          <Link
-            href="/"
-            className="flex items-center"
-            aria-label="Music Heals Sierra Leone home"
-          >
-            <Image
-              src="/images/logo/music-heals-sierra-leone-logo.jpg"
-              alt="Music Heals Sierra Leone logo"
-              width={170}
-              height={80}
-              className="h-12 w-auto rounded bg-white object-contain p-1"
-              priority
-            />
-          </Link>
-
-          <div className="hidden items-center gap-7 md:flex">
-            <Link
-              href="/"
-              className="text-sm text-slate-300 transition hover:text-[#C9A84C]"
-            >
-              Home
-            </Link>
-
-            <Link
-              href="/about"
-              className="text-sm text-slate-300 transition hover:text-[#C9A84C]"
-            >
-              About
-            </Link>
-
-            <Link
-              href="/#programs"
-              className="text-sm text-slate-300 transition hover:text-[#C9A84C]"
-            >
-              Programs
-            </Link>
-
-            <Link
-              href="/#impact"
-              className="text-sm text-slate-300 transition hover:text-[#C9A84C]"
-            >
-              Impact
-            </Link>
-
-            <Link
-              href="/gallery"
-              className="text-sm font-bold text-[#C9A84C]"
-            >
-              Gallery
-            </Link>
-
-            <Link
-              href="/contact"
-              className="text-sm text-slate-300 transition hover:text-[#C9A84C]"
-            >
-              Contact
-            </Link>
-          </div>
-
-          <Link
-            href="/contact#contact-form"
-            className="rounded-full bg-[#C9A84C] px-5 py-2.5 text-sm font-bold text-[#101820] transition hover:bg-[#dfc66f]"
-          >
-            Get Involved
-          </Link>
-        </nav>
-      </header>
+            <SiteHeader />
 
       {/* ========================================
           Hero
