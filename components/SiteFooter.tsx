@@ -108,7 +108,7 @@ export default function SiteFooter() {
 
       {/* Bottom bar: copyright */}
       <div className="border-t border-white/10">
-        <div className="mx-auto flex max-w-7xl flex-col gap-2 px-6 py-6 text-xs text-slate-500 sm:flex-row sm:justify-between lg:px-8">
+        <div className="mx-auto flex max-w-7xl flex-col gap-2 px-6 py-6 text-xs text-slate-400 sm:flex-row sm:justify-between lg:px-8">
           <p>&copy; {year} Music Heals Initiative Sierra Leone. All rights reserved.</p>
           <p>Freetown, Sierra Leone</p>
         </div>

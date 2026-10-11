@@ -523,7 +523,7 @@ export default function Home() {
 
           
             <a href="/contact"
-            className="mt-8 inline-block rounded-full bg-brand-orange px-8 py-4 font-semibold transition hover:bg-brand-orange-dark"
+                        className="mt-8 inline-block rounded-full bg-brand-orange px-8 py-4 font-semibold text-brand-teal-dark transition hover:bg-brand-orange-light"
           >
             Contact Our Team
           </a>
