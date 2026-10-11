@@ -219,7 +219,7 @@ export default function ContactPage() {
             id="contact-form"
             className="rounded-[2rem] border border-slate-200 bg-white p-8 shadow-sm md:p-10"
           >
-            <p className="text-sm font-bold uppercase tracking-[0.25em] text-brand-orange">
+            <p className="text-sm font-bold uppercase tracking-[0.25em] text-brand-orange-deep">
               Send Us a Message
             </p>
 
@@ -282,7 +282,7 @@ export default function ContactPage() {
                   className="mb-2 block text-sm font-semibold text-slate-700"
                 >
                   Phone / WhatsApp
-                  <span className="ml-1 font-normal text-slate-400">
+                  <span className="ml-1 font-normal text-slate-500">
                     (Optional)
                   </span>
                 </label>
@@ -384,7 +384,7 @@ export default function ContactPage() {
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full rounded-xl bg-brand-orange px-6 py-4 font-bold text-white transition hover:bg-brand-orange-dark disabled:cursor-not-allowed disabled:opacity-60"
+                className="w-full rounded-xl bg-brand-orange px-6 py-4 font-bold text-brand-teal-dark transition hover:bg-brand-orange-light disabled:cursor-not-allowed disabled:opacity-60"
                         >
                 {isSubmitting ? "Sending..." : "Send Message"}
             </button>
@@ -410,7 +410,7 @@ export default function ContactPage() {
         <div className="mx-auto max-w-7xl rounded-[2rem] border border-orange-200 bg-orange-50 p-8 md:p-10">
           <div className="grid gap-8 lg:grid-cols-[1fr_auto] lg:items-center">
             <div>
-              <p className="text-sm font-bold uppercase tracking-[0.25em] text-brand-orange">
+              <p className="text-sm font-bold uppercase tracking-[0.25em] text-brand-orange-deep">
                 Safeguarding
               </p>
 
@@ -452,7 +452,7 @@ export default function ContactPage() {
       >
         <div className="mx-auto max-w-7xl">
           <div className="mx-auto max-w-3xl text-center">
-            <p className="text-sm font-bold uppercase tracking-[0.25em] text-brand-orange">
+            <p className="text-sm font-bold uppercase tracking-[0.25em] text-brand-orange-deep">
               Get Involved
             </p>
 
@@ -479,7 +479,7 @@ export default function ContactPage() {
 
               <a
                 href="#contact-form"
-                className="mt-6 inline-block font-bold text-brand-orange hover:text-brand-orange-dark"
+                className="mt-6 inline-block font-bold text-brand-orange-deep hover:text-brand-teal"
               >
                 Donation Enquiry →
               </a>
@@ -502,7 +502,7 @@ export default function ContactPage() {
 
               <a
                 href="#contact-form"
-                className="mt-6 inline-block font-bold text-brand-orange hover:text-brand-orange-dark"
+                className="mt-6 inline-block font-bold text-brand-orange-deep hover:text-brand-teal"
               >
                 Volunteer Enquiry →
               </a>
@@ -525,7 +525,7 @@ export default function ContactPage() {
 
               <a
                 href="#contact-form"
-                className="mt-6 inline-block font-bold text-brand-orange hover:text-brand-orange-dark"
+                className="mt-6 inline-block font-bold text-brand-orange-deep hover:text-brand-teal"
               >
                 Partnership Enquiry →
               </a>
