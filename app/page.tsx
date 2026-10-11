@@ -237,7 +237,7 @@ export default function Home() {
               Community Empowerment
             </p>
 
-            <h2 className="font-serifmt-4 text-4xl font-bold text-brand-teal md:text-5xl">
+            <h2 className="font-serif mt-4 text-4xl font-bold text-brand-teal md:text-5xl">
               Reaching beyond the music classroom.
             </h2>
 
@@ -259,7 +259,7 @@ export default function Home() {
               Our Impact
             </p>
 
-            <h2 className="font-serifmt-4 text-4xl font-bold text-brand-teal md:text-5xl">
+            <h2 className="font-serif mt-4 text-4xl font-bold text-brand-teal md:text-5xl">
               Learning that leads to visible achievement.
             </h2>
           </div>
@@ -314,7 +314,7 @@ export default function Home() {
               Partnership
             </p>
 
-            <h2 className="font-serifmt-4 text-4xl font-bold md:text-5xl">
+            <h2 className="font-serif mt-4 text-4xl font-bold md:text-5xl">
               Collaboration expands what music can achieve.
             </h2>
 
@@ -345,7 +345,7 @@ export default function Home() {
               Music in Action
             </p>
 
-            <h2 className="font-serifmt-4 text-4xl font-bold text-brand-teal md:text-5xl">
+            <h2 className="font-serif mt-4 text-4xl font-bold text-brand-teal md:text-5xl">
               See the learning and creativity.
             </h2>
           </div>
@@ -426,7 +426,7 @@ export default function Home() {
               Gallery
             </p>
 
-            <h2 className="font-serifmt-4 text-4xl font-bold text-brand-teal md:text-5xl">
+            <h2 className="font-serif mt-4 text-4xl font-bold text-brand-teal md:text-5xl">
               Moments from Music Heals Sierra Leone.
             </h2>
           </div>
@@ -462,7 +462,7 @@ export default function Home() {
             Our Core Values
           </p>
 
-          <h2 className="font-serifmt-4 text-4xl font-bold text-brand-teal md:text-5xl">
+          <h2 className="font-serif mt-4 text-4xl font-bold text-brand-teal md:text-5xl">
             Principles that guide our work.
           </h2>
 
@@ -492,7 +492,7 @@ export default function Home() {
             Safeguarding
           </p>
 
-          <h2 className="font-serifmt-4 text-4xl font-bold text-brand-teal md:text-5xl">
+          <h2 className="font-serif mt-4 text-4xl font-bold text-brand-teal md:text-5xl">
             Safety, dignity and respect come first.
           </h2>
 
@@ -512,7 +512,7 @@ export default function Home() {
             Get Involved
           </p>
 
-          <h2 className="font-serifmx-auto mt-4 max-w-3xl text-4xl font-bold md:text-5xl">
+          <h2 className="font-serif mx-auto mt-4 max-w-3xl text-4xl font-bold md:text-5xl">
             Help music create healing, opportunity and hope.
           </h2>
 
@@ -537,7 +537,7 @@ export default function Home() {
             Contact
           </p>
 
-          <h2 className="font-serifmt-4 text-4xl font-bold text-brand-teal md:text-5xl">
+          <h2 className="font-serif mt-4 text-4xl font-bold text-brand-teal md:text-5xl">
             Connect with Music Heals Sierra Leone.
           </h2>
 
