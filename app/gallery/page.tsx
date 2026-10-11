@@ -392,7 +392,7 @@ export default function GalleryPage() {
   }, [activeCategory]);
 
   return (
-    <main className="min-h-screen bg-[#101820] text-white">
+    <main className="min-h-screen bg-brand-teal-dark text-white">
 
             <SiteHeader />
 
@@ -406,13 +406,13 @@ export default function GalleryPage() {
           className="absolute inset-0 opacity-[0.07]"
           aria-hidden="true"
         >
-          <div className="absolute left-[15%] top-10 h-72 w-72 rounded-full bg-[#C9A84C] blur-3xl" />
-          <div className="absolute bottom-0 right-[10%] h-96 w-96 rounded-full bg-[#8B2635] blur-3xl" />
+          <div className="absolute left-[15%] top-10 h-72 w-72 rounded-full bg-brand-orange blur-3xl" />
+          <div className="absolute bottom-0 right-[10%] h-96 w-96 rounded-full bg-brand-orange blur-3xl" />
         </div>
 
         <div className="relative mx-auto max-w-5xl text-center">
 
-          <p className="text-sm font-bold uppercase tracking-[0.35em] text-[#C9A84C]">
+          <p className="text-sm font-bold uppercase tracking-[0.35em] text-brand-orange-light">
             Gallery
           </p>
 
@@ -432,7 +432,7 @@ export default function GalleryPage() {
           Filters
       ======================================== */}
 
-      <section className="border-y border-white/10 bg-[#162331] px-6 py-7">
+      <section className="border-y border-white/10 bg-brand-teal px-6 py-7">
 
         <div
           className="mx-auto flex max-w-7xl flex-wrap justify-center gap-3"
@@ -454,10 +454,10 @@ export default function GalleryPage() {
                   setActiveCategory(category);
                   setSelectedIndex(null);
                 }}
-                className={`rounded-full px-5 py-2.5 text-sm font-semibold transition focus:outline-none focus:ring-2 focus:ring-[#C9A84C] focus:ring-offset-2 focus:ring-offset-[#162331] ${
+                className={`rounded-full px-5 py-2.5 text-sm font-semibold transition focus:outline-none focus:ring-2 focus:ring-brand-orange focus:ring-offset-2 focus:ring-offset-brand-teal ${
                   active
-                    ? "bg-[#C9A84C] text-[#101820]"
-                    : "border border-white/20 text-slate-200 hover:border-[#C9A84C] hover:text-[#C9A84C]"
+                    ? "bg-brand-orange text-brand-teal-dark"
+                    : "border border-white/20 text-slate-200 hover:border-brand-orange hover:text-brand-orange-light"
                 }`}
               >
                 {category}
@@ -482,7 +482,7 @@ export default function GalleryPage() {
 
               <article
                 key={item.id}
-                className={`gallery-reveal translate-y-6 overflow-hidden rounded-3xl border border-white/10 bg-[#162331] opacity-0 shadow-xl transition duration-700 ${
+                className={`gallery-reveal translate-y-6 overflow-hidden rounded-3xl border border-white/10 bg-brand-teal opacity-0 shadow-xl transition duration-700 ${
                   item.featured
                     ? "md:col-span-2 lg:col-span-2"
                     : ""
@@ -493,7 +493,7 @@ export default function GalleryPage() {
                   type="button"
                   onClick={() => openLightbox(index)}
                   aria-label={`Open ${item.title} in gallery viewer`}
-                  className="group block w-full text-left focus:outline-none focus:ring-2 focus:ring-inset focus:ring-[#C9A84C]"
+                  className="group block w-full text-left focus:outline-none focus:ring-2 focus:ring-inset focus:ring-brand-orange"
                 >
 
                 <div
@@ -543,7 +543,7 @@ export default function GalleryPage() {
                           {item.caption}
                         </p>
 
-                        <span className="mt-3 inline-block text-xs font-bold uppercase tracking-[0.2em] text-[#C9A84C]">
+                        <span className="mt-3 inline-block text-xs font-bold uppercase tracking-[0.2em] text-brand-orange-light">
                           View Full Media
                         </span>
 
@@ -555,7 +555,7 @@ export default function GalleryPage() {
 
                       <div
                         aria-hidden="true"
-                        className="absolute left-5 top-5 flex h-12 w-12 items-center justify-center rounded-full bg-[#C9A84C] text-lg text-[#101820] shadow-lg"
+                        className="absolute left-5 top-5 flex h-12 w-12 items-center justify-center rounded-full bg-brand-orange text-lg text-brand-teal-dark shadow-lg"
                       >
                         ▶
                       </div>
@@ -563,7 +563,7 @@ export default function GalleryPage() {
                     )}
 
                     {item.featured && (
-                      <div className="absolute right-5 top-5 rounded-full bg-[#8B2635] px-4 py-2 text-xs font-bold uppercase tracking-wider text-white">
+                      <div className="absolute right-5 top-5 rounded-full bg-brand-orange px-4 py-2 text-xs font-bold uppercase tracking-wider text-brand-teal-dark">
                         Featured
                       </div>
                     )}
@@ -576,7 +576,7 @@ export default function GalleryPage() {
 
                 <div className="p-6">
 
-                  <p className="text-xs font-bold uppercase tracking-[0.22em] text-[#C9A84C]">
+                  <p className="text-xs font-bold uppercase tracking-[0.22em] text-brand-orange-light">
                     {item.category}
                   </p>
 
@@ -612,9 +612,9 @@ export default function GalleryPage() {
 
       <section className="px-6 pb-24 pt-10 lg:px-8">
 
-        <div className="mx-auto max-w-5xl overflow-hidden rounded-[2rem] border border-[#C9A84C]/30 bg-[#1A2B3C] px-8 py-14 text-center md:px-14 md:py-16">
+        <div className="mx-auto max-w-5xl overflow-hidden rounded-[2rem] border border-brand-orange/30 bg-brand-teal px-8 py-14 text-center md:px-14 md:py-16">
 
-          <p className="text-sm font-bold uppercase tracking-[0.28em] text-[#C9A84C]">
+          <p className="text-sm font-bold uppercase tracking-[0.28em] text-brand-orange-light">
             Make More Moments Possible
           </p>
 
@@ -635,7 +635,7 @@ export default function GalleryPage() {
 
           <Link
             href="/contact#contact-form"
-            className="mt-9 inline-flex rounded-full bg-[#C9A84C] px-8 py-4 font-bold text-[#101820] transition hover:bg-[#dfc66f] focus:outline-none focus:ring-2 focus:ring-white"
+            className="mt-9 inline-flex rounded-full bg-brand-orange px-8 py-4 font-bold text-brand-teal-dark transition hover:bg-brand-orange-light focus:outline-none focus:ring-2 focus:ring-white"
           >
             Donate
           </Link>
@@ -663,7 +663,7 @@ export default function GalleryPage() {
             type="button"
             onClick={closeLightbox}
             aria-label="Close gallery viewer"
-            className="absolute right-5 top-5 z-20 flex h-12 w-12 items-center justify-center rounded-full border border-white/20 bg-black/50 text-2xl text-white transition hover:bg-white hover:text-black focus:outline-none focus:ring-2 focus:ring-[#C9A84C]"
+            className="absolute right-5 top-5 z-20 flex h-12 w-12 items-center justify-center rounded-full border border-white/20 bg-black/50 text-2xl text-white transition hover:bg-white hover:text-black focus:outline-none focus:ring-2 focus:ring-brand-orange"
           >
             
           </button>
@@ -677,7 +677,7 @@ export default function GalleryPage() {
               showPrevious();
             }}
             aria-label="View previous gallery item"
-            className="absolute left-3 top-1/2 z-20 flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full border border-white/20 bg-black/50 text-2xl text-white transition hover:bg-[#C9A84C] hover:text-black focus:outline-none focus:ring-2 focus:ring-[#C9A84C] md:left-7"
+            className="absolute left-3 top-1/2 z-20 flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full border border-white/20 bg-black/50 text-2xl text-white transition hover:bg-brand-orange hover:text-black focus:outline-none focus:ring-2 focus:ring-brand-orange md:left-7"
           >
             ‹
           </button>
@@ -691,13 +691,13 @@ export default function GalleryPage() {
               showNext();
             }}
             aria-label="View next gallery item"
-            className="absolute right-3 top-1/2 z-20 flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full border border-white/20 bg-black/50 text-2xl text-white transition hover:bg-[#C9A84C] hover:text-black focus:outline-none focus:ring-2 focus:ring-[#C9A84C] md:right-7"
+            className="absolute right-3 top-1/2 z-20 flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full border border-white/20 bg-black/50 text-2xl text-white transition hover:bg-brand-orange hover:text-black focus:outline-none focus:ring-2 focus:ring-brand-orange md:right-7"
           >
             ›
           </button>
 
           <div
-            className="flex max-h-[92vh] w-full max-w-6xl flex-col overflow-hidden rounded-2xl bg-[#101820]"
+            className="flex max-h-[92vh] w-full max-w-6xl flex-col overflow-hidden rounded-2xl bg-brand-teal-dark"
             onClick={(event) =>
               event.stopPropagation()
             }
@@ -731,7 +731,7 @@ export default function GalleryPage() {
 
             <div className="border-t border-white/10 p-6 md:p-8">
 
-              <p className="text-xs font-bold uppercase tracking-[0.2em] text-[#C9A84C]">
+              <p className="text-xs font-bold uppercase tracking-[0.2em] text-brand-orange-light">
                 {selectedItem.category}
               </p>
 

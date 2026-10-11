@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 };
 export default function AboutPage() {
   return (
-    <main className="min-h-screen bg-[#07101d] text-white">
+    <main className="min-h-screen bg-brand-teal-dark text-white">
 
             <SiteHeader />
 
@@ -22,19 +22,19 @@ export default function AboutPage() {
 
         <div
           aria-hidden="true"
-          className="absolute -right-20 bottom-0 h-80 w-80 rounded-full bg-amber-500/10 blur-3xl"
+          className="absolute -right-20 bottom-0 h-80 w-80 rounded-full bg-brand-orange/10 blur-3xl"
         />
 
         <div className="mx-auto grid max-w-7xl items-center gap-12 px-6 py-20 lg:grid-cols-2 lg:px-8 lg:py-28">
           {/* Hero text */}
           <div className="relative z-10">
-            <p className="mb-5 text-sm font-semibold uppercase tracking-[0.28em] text-amber-400">
+            <p className="mb-5 text-sm font-semibold uppercase tracking-[0.28em] text-brand-orange-light">
               About MHISL
             </p>
 
             <h1 className="max-w-3xl font-serif text-4xl font-bold leading-tight text-white sm:text-5xl lg:text-6xl">
               Music as a pathway to{" "}
-              <span className="text-amber-400">
+              <span className="text-brand-orange-light">
                 healing, opportunity and empowerment.
               </span>
             </h1>
@@ -55,14 +55,14 @@ export default function AboutPage() {
             <div className="mt-9 flex flex-wrap gap-4">
               <Link
                 href="#our-story"
-                className="rounded-full bg-amber-400 px-6 py-3 text-sm font-semibold text-slate-950 transition hover:bg-amber-300 focus:outline-none focus:ring-2 focus:ring-amber-300 focus:ring-offset-2 focus:ring-offset-[#07101d]"
+                className="rounded-full bg-brand-orange-light px-6 py-3 text-sm font-semibold text-slate-950 transition hover:bg-brand-orange focus:outline-none focus:ring-2 focus:ring-brand-orange focus:ring-offset-2 focus:ring-offset-brand-teal-dark"
               >
                 Discover Our Story
               </Link>
 
               <Link
                 href="/contact"
-                className="rounded-full border border-white/20 px-6 py-3 text-sm font-semibold text-white transition hover:border-amber-400 hover:text-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-300 focus:ring-offset-2 focus:ring-offset-[#07101d]"
+                className="rounded-full border border-white/20 px-6 py-3 text-sm font-semibold text-white transition hover:border-brand-orange-light hover:text-brand-orange-light focus:outline-none focus:ring-2 focus:ring-brand-orange focus:ring-offset-2 focus:ring-offset-brand-teal-dark"
               >
                 Contact Us
               </Link>
@@ -73,7 +73,7 @@ export default function AboutPage() {
           <div className="relative">
             <div
               aria-hidden="true"
-              className="absolute -inset-4 rounded-[2rem] bg-amber-400/10 blur-2xl"
+              className="absolute -inset-4 rounded-[2rem] bg-brand-orange-light/10 blur-2xl"
             />
 
             <div className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-slate-900 shadow-2xl">
@@ -87,11 +87,11 @@ export default function AboutPage() {
                   className="object-cover"
                 />
 
-                <div className="absolute inset-0 bg-gradient-to-t from-[#07101d]/80 via-transparent to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-brand-teal-dark/80 via-transparent to-transparent" />
               </div>
 
               <div className="absolute bottom-0 left-0 right-0 p-6">
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-amber-400">
+                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-brand-orange-light">
                   Freetown, Sierra Leone
                 </p>
 
@@ -110,13 +110,13 @@ export default function AboutPage() {
       ======================================== */}
       <section
         id="our-story"
-        className="relative scroll-mt-24 border-b border-white/10 bg-[#0a1422]"
+        className="relative scroll-mt-24 border-b border-white/10 bg-brand-teal-dark"
       >
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-28">
           <div className="grid gap-14 lg:grid-cols-[0.8fr_1.2fr] lg:gap-20">
             {/* Section heading */}
             <div>
-              <p className="mb-4 text-sm font-semibold uppercase tracking-[0.28em] text-amber-400">
+              <p className="mb-4 text-sm font-semibold uppercase tracking-[0.28em] text-brand-orange-light">
                 Our Story
               </p>
 
@@ -124,14 +124,14 @@ export default function AboutPage() {
                 Where music became a tool for change.
               </h2>
 
-              <div className="mt-8 h-px w-20 bg-amber-400" />
+              <div className="mt-8 h-px w-20 bg-brand-orange-light" />
 
               <div className="mt-8 rounded-2xl border border-white/10 bg-white/[0.03] p-6">
                 <p className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-400">
                   Founded
                 </p>
 
-                <p className="mt-2 font-serif text-4xl font-bold text-amber-400">
+                <p className="mt-2 font-serif text-4xl font-bold text-brand-orange-light">
                   2017
                 </p>
 
@@ -185,7 +185,7 @@ export default function AboutPage() {
                 pathways toward education, employment and social integration.
               </p>
 
-              <blockquote className="mt-10 border-l-2 border-amber-400 bg-white/[0.03] px-6 py-5 font-serif text-xl italic leading-8 text-slate-100">
+              <blockquote className="mt-10 border-l-2 border-brand-orange-light bg-white/[0.03] px-6 py-5 font-serif text-xl italic leading-8 text-slate-100">
                 Music is not only something to perform. It can create space for
                 healing, learning, dignity and opportunity.
               </blockquote>
@@ -199,17 +199,17 @@ export default function AboutPage() {
       ======================================== */}
       <section
         id="leadership"
-        className="relative scroll-mt-24 overflow-hidden border-b border-white/10 bg-[#07101d]"
+        className="relative scroll-mt-24 overflow-hidden border-b border-white/10 bg-brand-teal-dark"
       >
         <div
           aria-hidden="true"
-          className="absolute -left-24 top-24 h-80 w-80 rounded-full bg-amber-500/10 blur-3xl"
+          className="absolute -left-24 top-24 h-80 w-80 rounded-full bg-brand-orange/10 blur-3xl"
         />
 
         <div className="relative mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-28">
           {/* Section heading */}
           <div className="max-w-3xl">
-            <p className="mb-4 text-sm font-semibold uppercase tracking-[0.28em] text-amber-400">
+            <p className="mb-4 text-sm font-semibold uppercase tracking-[0.28em] text-brand-orange-light">
               Leadership
             </p>
 
@@ -217,7 +217,7 @@ export default function AboutPage() {
               Meet our Founder &amp; Executive Director.
             </h2>
 
-            <div className="mt-8 h-px w-20 bg-amber-400" />
+            <div className="mt-8 h-px w-20 bg-brand-orange-light" />
           </div>
 
           {/* Profile */}
@@ -227,7 +227,7 @@ export default function AboutPage() {
               <div className="relative">
                 <div
                   aria-hidden="true"
-                  className="absolute -inset-4 rounded-[2rem] bg-amber-400/10 blur-2xl"
+                  className="absolute -inset-4 rounded-[2rem] bg-brand-orange-light/10 blur-2xl"
                 />
 
                 <div className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-slate-900 shadow-2xl">
@@ -248,7 +248,7 @@ export default function AboutPage() {
                   Simeon Bangura
                 </p>
 
-                <p className="mt-1 text-sm font-semibold uppercase tracking-[0.18em] text-amber-400">
+                <p className="mt-1 text-sm font-semibold uppercase tracking-[0.18em] text-brand-orange-light">
                   Founder &amp; Executive Director
                 </p>
 
@@ -311,12 +311,12 @@ export default function AboutPage() {
                 </p>
               </div>
 
-              <blockquote className="mt-10 border-l-2 border-amber-400 bg-white/[0.03] px-6 py-5">
+              <blockquote className="mt-10 border-l-2 border-brand-orange-light bg-white/[0.03] px-6 py-5">
                 <p className="font-serif text-xl italic leading-8 text-slate-100">
                   &ldquo;Music is far more than entertainment &ndash; it is a
                   vital bridge to healing, dignity and transformation.&rdquo;
                 </p>
-                <footer className="mt-3 text-sm font-semibold text-amber-400">
+                <footer className="mt-3 text-sm font-semibold text-brand-orange-light">
                   &mdash; Simeon Bangura
                 </footer>
               </blockquote>
@@ -325,7 +325,7 @@ export default function AboutPage() {
 
           {/* Core expertise */}
           <div className="mt-20">
-            <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-amber-400">
+            <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-orange-light">
               Core Expertise
             </h3>
 
@@ -346,7 +346,7 @@ export default function AboutPage() {
               ].map((item) => (
                 <div
                   key={item.title}
-                  className="rounded-2xl border border-white/10 bg-white/[0.03] p-6 transition hover:border-amber-400/40"
+                  className="rounded-2xl border border-white/10 bg-white/[0.03] p-6 transition hover:border-brand-orange-light/40"
                 >
                   <h4 className="font-serif text-xl font-bold text-white">
                     {item.title}
@@ -361,7 +361,7 @@ export default function AboutPage() {
 
           {/* Key achievements */}
           <div className="mt-16">
-            <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-amber-400">
+            <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-orange-light">
               Key Achievements
             </h3>
 
@@ -382,9 +382,9 @@ export default function AboutPage() {
               ].map((item, index) => (
                 <li
                   key={item.title}
-                  className="rounded-2xl border border-white/10 bg-[#0a1422] p-6"
+                  className="rounded-2xl border border-white/10 bg-brand-teal-dark p-6"
                 >
-                  <p className="font-serif text-3xl font-bold text-amber-400">
+                  <p className="font-serif text-3xl font-bold text-brand-orange-light">
                     {String(index + 1).padStart(2, "0")}
                   </p>
                   <h4 className="mt-3 text-lg font-semibold text-white">
@@ -400,7 +400,7 @@ export default function AboutPage() {
 
           {/* Official contact */}
           <div className="mt-16 rounded-2xl border border-white/10 bg-white/[0.03] p-6 sm:p-8">
-            <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-amber-400">
+            <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-orange-light">
               Official Contact
             </h3>
 
@@ -412,7 +412,7 @@ export default function AboutPage() {
                 <dd className="mt-2 break-words">
                   <a
                     href="mailto:info@musichealsinitiative.org"
-                    className="text-white transition hover:text-amber-400"
+                    className="text-white transition hover:text-brand-orange-light"
                   >
                     info@musichealsinitiative.org
                   </a>
@@ -426,7 +426,7 @@ export default function AboutPage() {
                 <dd className="mt-2">
                   <a
                     href="tel:+23276967247"
-                    className="text-white transition hover:text-amber-400"
+                    className="text-white transition hover:text-brand-orange-light"
                   >
                     +232 76 967247
                   </a>
@@ -440,7 +440,7 @@ export default function AboutPage() {
                 <dd className="mt-2">
                   <a
                     href="https://www.musichealsinitiative.org"
-                    className="text-white transition hover:text-amber-400"
+                    className="text-white transition hover:text-brand-orange-light"
                   >
                     www.musichealsinitiative.org
                   </a>
