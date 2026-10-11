@@ -160,7 +160,7 @@ export default function AboutPage() {
                 2017 by{" "}
                 <span className="font-semibold text-white">Simeon Bangura</span>,
                 Founder and Executive Director, with a belief that music could
-                do more than entertain—it could become a practical tool for
+                do more than entertain – it could become a practical tool for
                 healing, rehabilitation and opportunity.
               </p>
 
@@ -313,7 +313,7 @@ export default function AboutPage() {
 
               <blockquote className="mt-10 border-l-2 border-amber-400 bg-white/[0.03] px-6 py-5">
                 <p className="font-serif text-xl italic leading-8 text-slate-100">
-                  &ldquo;Music is far more than entertainment&mdash;it is a
+                  &ldquo;Music is far more than entertainment &ndash; it is a
                   vital bridge to healing, dignity and transformation.&rdquo;
                 </p>
                 <footer className="mt-3 text-sm font-semibold text-amber-400">

@@ -1,6 +1,6 @@
+import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import type { Metadata } from "next";
 
 // Body text font — stored in app/fonts, no internet needed
 const inter = localFont({
@@ -18,6 +18,7 @@ const playfair = localFont({
   display: "swap",
 });
 
+// Site-wide title, description and link-preview settings
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.musichealsinitiative.org"),
   title: {
@@ -25,7 +26,7 @@ export const metadata: Metadata = {
     template: "%s | Music Heals Initiative Sierra Leone",
   },
   description:
-    "Music Heals Initiative Sierra Leone (MHISL) uses music and the creative arts to support healing, education, empowerment and social inclusion for vulnerable young people in Freetown and across Sierra Leone.",
+    "Since 2017, Music Heals Initiative Sierra Leone has used music to help vulnerable children and youth in Freetown heal, learn and build brighter futures.",
   openGraph: {
     siteName: "Music Heals Initiative Sierra Leone",
     locale: "en_GB",
@@ -33,6 +34,7 @@ export const metadata: Metadata = {
     images: ["/images/hero/hero-live-music-performance.jpg"],
   },
 };
+
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
