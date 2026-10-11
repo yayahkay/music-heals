@@ -24,7 +24,7 @@ export default function Home() {
               Music. Purpose. Empowerment.
             </p>
 
-            <h1 className="font-seriftext-5xl font-bold leading-tight sm:text-6xl lg:text-7xl">
+            <h1 className="font-serif text-5xl font-bold leading-tight sm:text-6xl lg:text-7xl">
               Healing, educating and empowering through music.
             </h1>
 
@@ -57,11 +57,11 @@ export default function Home() {
       <section id="about" className="px-6 py-24 lg:px-8">
         <div className="mx-auto grid max-w-7xl gap-12 lg:grid-cols-2 lg:items-center">
           <div>
-            <p className="mb-4 text-sm font-bold uppercase tracking-[0.25em] text-brand-orange">
+            <p className="mb-4 text-sm font-bold uppercase tracking-[0.25em] text-brand-orange-deep">
               About Music Heals Sierra Leone
             </p>
 
-            <h2 className="font-seriftext-4xl font-bold leading-tight text-brand-teal md:text-5xl">
+            <h2 className="font-serif text-4xl font-bold leading-tight text-brand-teal md:text-5xl">
               Music as a tool for healing, growth and opportunity.
             </h2>
 
@@ -130,11 +130,11 @@ export default function Home() {
       <section id="programs" className="px-6 py-24 lg:px-8">
         <div className="mx-auto max-w-7xl">
           <div className="mb-14 max-w-3xl">
-            <p className="mb-4 text-sm font-bold uppercase tracking-[0.25em] text-brand-orange">
+            <p className="mb-4 text-sm font-bold uppercase tracking-[0.25em] text-brand-orange-deep">
               Our Programs
             </p>
 
-            <h2 className="font-seriftext-4xl font-bold text-brand-teal md:text-5xl">
+            <h2 className="font-serif text-4xl font-bold text-brand-teal md:text-5xl">
               Developing skills, confidence and creativity.
             </h2>
           </div>
@@ -233,7 +233,7 @@ export default function Home() {
           </div>
 
           <div>
-            <p className="text-sm font-bold uppercase tracking-[0.25em] text-brand-orange">
+            <p className="text-sm font-bold uppercase tracking-[0.25em] text-brand-orange-deep">
               Community Empowerment
             </p>
 
@@ -255,7 +255,7 @@ export default function Home() {
       <section id="impact" className="px-6 py-24 lg:px-8">
         <div className="mx-auto max-w-7xl">
           <div className="mb-14 max-w-3xl">
-            <p className="text-sm font-bold uppercase tracking-[0.25em] text-brand-orange">
+            <p className="text-sm font-bold uppercase tracking-[0.25em] text-brand-orange-deep">
               Our Impact
             </p>
 
@@ -341,7 +341,7 @@ export default function Home() {
       <section className="px-6 py-24 lg:px-8">
         <div className="mx-auto max-w-7xl">
           <div className="mb-14 text-center">
-            <p className="text-sm font-bold uppercase tracking-[0.25em] text-brand-orange">
+            <p className="text-sm font-bold uppercase tracking-[0.25em] text-brand-orange-deep">
               Music in Action
             </p>
 
@@ -422,7 +422,7 @@ export default function Home() {
       <section id="gallery" className="bg-brand-cream px-6 py-24 lg:px-8">
         <div className="mx-auto max-w-7xl">
           <div className="mb-12">
-            <p className="text-sm font-bold uppercase tracking-[0.25em] text-brand-orange">
+            <p className="text-sm font-bold uppercase tracking-[0.25em] text-brand-orange-deep">
               Gallery
             </p>
 
@@ -458,7 +458,7 @@ export default function Home() {
       {/* Values */}
       <section className="px-6 py-24 lg:px-8">
         <div className="mx-auto max-w-7xl text-center">
-          <p className="text-sm font-bold uppercase tracking-[0.25em] text-brand-orange">
+          <p className="text-sm font-bold uppercase tracking-[0.25em] text-brand-orange-deep">
             Our Core Values
           </p>
 
@@ -488,7 +488,7 @@ export default function Home() {
       {/* Safeguarding */}
       <section id="safeguarding" className="bg-orange-50 px-6 py-24 lg:px-8">
         <div className="mx-auto max-w-5xl text-center">
-          <p className="text-sm font-bold uppercase tracking-[0.25em] text-brand-orange">
+          <p className="text-sm font-bold uppercase tracking-[0.25em] text-brand-orange-deep">
             Safeguarding
           </p>
 
@@ -533,7 +533,7 @@ export default function Home() {
       {/* Contact */}
       <section id="contact" className="border-t border-slate-200 px-6 py-24 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
-          <p className="text-sm font-bold uppercase tracking-[0.25em] text-brand-orange">
+          <p className="text-sm font-bold uppercase tracking-[0.25em] text-brand-orange-deep">
             Contact
           </p>
 

@@ -81,7 +81,7 @@ export default function ContactPage() {
             Contact Music Heals Sierra Leone
           </p>
 
-          <h1 className="mt-5 text-5xl font-bold md:text-6xl">
+          <h1 className="font-serif mt-5 text-5xl font-bold md:text-6xl">
             We&apos;d love to hear from you.
           </h1>
 
@@ -102,7 +102,7 @@ export default function ContactPage() {
               Contact Information
             </p>
 
-            <h2 className="mt-4 text-3xl font-bold">
+            <h2 className="font-serif mt-4 text-3xl font-bold">
               Talk to our team.
             </h2>
 
@@ -223,7 +223,7 @@ export default function ContactPage() {
               Send Us a Message
             </p>
 
-            <h2 className="mt-4 text-3xl font-bold text-brand-teal">
+            <h2 className="font-serif mt-4 text-3xl font-bold text-brand-teal">
               How can we help?
             </h2>
 
@@ -414,7 +414,7 @@ export default function ContactPage() {
                 Safeguarding
               </p>
 
-              <h2 className="mt-3 text-3xl font-bold text-brand-teal">
+              <h2 className="font-serif mt-3 text-3xl font-bold text-brand-teal">
                 Need to report a safeguarding concern?
               </h2>
 
@@ -456,7 +456,7 @@ export default function ContactPage() {
               Get Involved
             </p>
 
-            <h2 className="mt-4 text-4xl font-bold text-brand-teal md:text-5xl">
+            <h2 className="font-serif mt-4 text-4xl font-bold text-brand-teal md:text-5xl">
               There are different ways to support our mission.
             </h2>
           </div>
