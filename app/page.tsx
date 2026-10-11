@@ -37,7 +37,7 @@ export default function Home() {
             <div className="mt-9 flex flex-col gap-4 sm:flex-row">
               <a
                 href="/about"
-                className="rounded-full bg-[#ed761d] px-8 py-4 text-center font-semibold text-white transition hover:bg-[#d96312]"
+                className="rounded-full bg-brand-orange px-8 py-4 text-center font-semibold text-white transition hover:bg-brand-orange-dark"
               >
                 Discover Our Mission
               </a>
@@ -57,11 +57,11 @@ export default function Home() {
       <section id="about" className="px-6 py-24 lg:px-8">
         <div className="mx-auto grid max-w-7xl gap-12 lg:grid-cols-2 lg:items-center">
           <div>
-            <p className="mb-4 text-sm font-bold uppercase tracking-[0.25em] text-[#ed761d]">
+            <p className="mb-4 text-sm font-bold uppercase tracking-[0.25em] text-brand-orange">
               About Music Heals Sierra Leone
             </p>
 
-            <h2 className="text-4xl font-bold leading-tight text-[#123f49] md:text-5xl">
+            <h2 className="text-4xl font-bold leading-tight text-brand-teal md:text-5xl">
               Music as a tool for healing, growth and opportunity.
             </h2>
 
@@ -91,7 +91,7 @@ export default function Home() {
       </section>
 
       {/* Vision + Mission */}
-      <section className="bg-[#123f49] px-6 py-24 text-white lg:px-8">
+      <section className="bg-brand-teal px-6 py-24 text-white lg:px-8">
         <div className="mx-auto grid max-w-7xl gap-8 md:grid-cols-2">
           <article className="rounded-3xl border border-white/10 bg-white/5 p-8 md:p-10">
             <p className="text-sm font-bold uppercase tracking-[0.25em] text-orange-300">
@@ -130,11 +130,11 @@ export default function Home() {
       <section id="programs" className="px-6 py-24 lg:px-8">
         <div className="mx-auto max-w-7xl">
           <div className="mb-14 max-w-3xl">
-            <p className="mb-4 text-sm font-bold uppercase tracking-[0.25em] text-[#ed761d]">
+            <p className="mb-4 text-sm font-bold uppercase tracking-[0.25em] text-brand-orange">
               Our Programs
             </p>
 
-            <h2 className="text-4xl font-bold text-[#123f49] md:text-5xl">
+            <h2 className="text-4xl font-bold text-brand-teal md:text-5xl">
               Developing skills, confidence and creativity.
             </h2>
           </div>
@@ -149,7 +149,7 @@ export default function Home() {
                 className="h-72 w-full object-cover object-top"
               />
               <div className="p-7">
-                <h3 className="text-2xl font-bold text-[#123f49]">
+                <h3 className="text-2xl font-bold text-brand-teal">
                   Ensemble Training
                 </h3>
                 <p className="mt-3 leading-7 text-slate-600">
@@ -168,7 +168,7 @@ export default function Home() {
                 className="h-72 w-full object-cover object-top"
               />
               <div className="p-7">
-                <h3 className="text-2xl font-bold text-[#123f49]">
+                <h3 className="text-2xl font-bold text-brand-teal">
                   Keyboard Training
                 </h3>
                 <p className="mt-3 leading-7 text-slate-600">
@@ -187,7 +187,7 @@ export default function Home() {
                 className="h-72 w-full object-cover object-top"
               />
               <div className="p-7">
-                <h3 className="text-2xl font-bold text-[#123f49]">
+                <h3 className="text-2xl font-bold text-brand-teal">
                   Percussion Training
                 </h3>
                 <p className="mt-3 leading-7 text-slate-600">
@@ -206,7 +206,7 @@ export default function Home() {
                 className="h-72 w-full object-cover object-top"
               />
               <div className="p-7">
-                <h3 className="text-2xl font-bold text-[#123f49]">
+                <h3 className="text-2xl font-bold text-brand-teal">
                   Instrument Development
                 </h3>
                 <p className="mt-3 leading-7 text-slate-600">
@@ -220,7 +220,7 @@ export default function Home() {
       </section>
 
       {/* Community */}
-      <section className="bg-[#f5f8f8] px-6 py-24 lg:px-8">
+      <section className="bg-brand-cream px-6 py-24 lg:px-8">
         <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-2 lg:items-center">
           <div className="overflow-hidden rounded-[2rem]">
             <Image
@@ -233,11 +233,11 @@ export default function Home() {
           </div>
 
           <div>
-            <p className="text-sm font-bold uppercase tracking-[0.25em] text-[#ed761d]">
+            <p className="text-sm font-bold uppercase tracking-[0.25em] text-brand-orange">
               Community Empowerment
             </p>
 
-            <h2 className="mt-4 text-4xl font-bold text-[#123f49] md:text-5xl">
+            <h2 className="mt-4 text-4xl font-bold text-brand-teal md:text-5xl">
               Reaching beyond the music classroom.
             </h2>
 
@@ -255,17 +255,17 @@ export default function Home() {
       <section id="impact" className="px-6 py-24 lg:px-8">
         <div className="mx-auto max-w-7xl">
           <div className="mb-14 max-w-3xl">
-            <p className="text-sm font-bold uppercase tracking-[0.25em] text-[#ed761d]">
+            <p className="text-sm font-bold uppercase tracking-[0.25em] text-brand-orange">
               Our Impact
             </p>
 
-            <h2 className="mt-4 text-4xl font-bold text-[#123f49] md:text-5xl">
+            <h2 className="mt-4 text-4xl font-bold text-brand-teal md:text-5xl">
               Learning that leads to visible achievement.
             </h2>
           </div>
 
           <div className="grid gap-8 lg:grid-cols-2">
-            <div className="overflow-hidden rounded-3xl bg-[#f5f8f8] p-5">
+            <div className="overflow-hidden rounded-3xl bg-brand-cream p-5">
               <Image
                 src="/images/impact/impact-music-examination-certificate.jpg"
                 alt="Music examination certificate"
@@ -274,7 +274,7 @@ export default function Home() {
                 className="h-[500px] w-full rounded-2xl bg-white object-contain"
               />
 
-              <h3 className="mt-6 text-2xl font-bold text-[#123f49]">
+              <h3 className="mt-6 text-2xl font-bold text-brand-teal">
                 Music Achievement
               </h3>
 
@@ -284,7 +284,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="overflow-hidden rounded-3xl bg-[#f5f8f8] p-5">
+            <div className="overflow-hidden rounded-3xl bg-brand-cream p-5">
               <Image
                 src="/images/impact/impact-community-certificates.jpg"
                 alt="Participants displaying certificates"
@@ -293,7 +293,7 @@ export default function Home() {
                 className="h-[500px] w-full rounded-2xl bg-white object-contain"
               />
 
-              <h3 className="mt-6 text-2xl font-bold text-[#123f49]">
+              <h3 className="mt-6 text-2xl font-bold text-brand-teal">
                 Growth and Recognition
               </h3>
 
@@ -307,7 +307,7 @@ export default function Home() {
       </section>
 
       {/* Partnership */}
-      <section className="bg-[#123f49] px-6 py-24 text-white lg:px-8">
+      <section className="bg-brand-teal px-6 py-24 text-white lg:px-8">
         <div className="mx-auto grid max-w-7xl gap-12 lg:grid-cols-2 lg:items-center">
           <div>
             <p className="text-sm font-bold uppercase tracking-[0.25em] text-orange-300">
@@ -341,11 +341,11 @@ export default function Home() {
       <section className="px-6 py-24 lg:px-8">
         <div className="mx-auto max-w-7xl">
           <div className="mb-14 text-center">
-            <p className="text-sm font-bold uppercase tracking-[0.25em] text-[#ed761d]">
+            <p className="text-sm font-bold uppercase tracking-[0.25em] text-brand-orange">
               Music in Action
             </p>
 
-            <h2 className="mt-4 text-4xl font-bold text-[#123f49] md:text-5xl">
+            <h2 className="mt-4 text-4xl font-bold text-brand-teal md:text-5xl">
               See the learning and creativity.
             </h2>
           </div>
@@ -419,14 +419,14 @@ export default function Home() {
       </section>
 
       {/* Gallery */}
-      <section id="gallery" className="bg-[#f5f8f8] px-6 py-24 lg:px-8">
+      <section id="gallery" className="bg-brand-cream px-6 py-24 lg:px-8">
         <div className="mx-auto max-w-7xl">
           <div className="mb-12">
-            <p className="text-sm font-bold uppercase tracking-[0.25em] text-[#ed761d]">
+            <p className="text-sm font-bold uppercase tracking-[0.25em] text-brand-orange">
               Gallery
             </p>
 
-            <h2 className="mt-4 text-4xl font-bold text-[#123f49] md:text-5xl">
+            <h2 className="mt-4 text-4xl font-bold text-brand-teal md:text-5xl">
               Moments from Music Heals Sierra Leone.
             </h2>
           </div>
@@ -458,11 +458,11 @@ export default function Home() {
       {/* Values */}
       <section className="px-6 py-24 lg:px-8">
         <div className="mx-auto max-w-7xl text-center">
-          <p className="text-sm font-bold uppercase tracking-[0.25em] text-[#ed761d]">
+          <p className="text-sm font-bold uppercase tracking-[0.25em] text-brand-orange">
             Our Core Values
           </p>
 
-          <h2 className="mt-4 text-4xl font-bold text-[#123f49] md:text-5xl">
+          <h2 className="mt-4 text-4xl font-bold text-brand-teal md:text-5xl">
             Principles that guide our work.
           </h2>
 
@@ -476,7 +476,7 @@ export default function Home() {
             ].map((value) => (
               <div
                 key={value}
-                className="rounded-2xl border border-slate-200 bg-white p-6 font-semibold text-[#123f49] shadow-sm"
+                className="rounded-2xl border border-slate-200 bg-white p-6 font-semibold text-brand-teal shadow-sm"
               >
                 {value}
               </div>
@@ -488,11 +488,11 @@ export default function Home() {
       {/* Safeguarding */}
       <section id="safeguarding" className="bg-orange-50 px-6 py-24 lg:px-8">
         <div className="mx-auto max-w-5xl text-center">
-          <p className="text-sm font-bold uppercase tracking-[0.25em] text-[#ed761d]">
+          <p className="text-sm font-bold uppercase tracking-[0.25em] text-brand-orange">
             Safeguarding
           </p>
 
-          <h2 className="mt-4 text-4xl font-bold text-[#123f49] md:text-5xl">
+          <h2 className="mt-4 text-4xl font-bold text-brand-teal md:text-5xl">
             Safety, dignity and respect come first.
           </h2>
 
@@ -507,7 +507,7 @@ export default function Home() {
 
       {/* Get Involved */}
       <section id="support" className="px-6 py-24 lg:px-8">
-        <div className="mx-auto max-w-6xl rounded-[2rem] bg-[#123f49] px-8 py-16 text-center text-white md:px-16">
+        <div className="mx-auto max-w-6xl rounded-[2rem] bg-brand-teal px-8 py-16 text-center text-white md:px-16">
           <p className="text-sm font-bold uppercase tracking-[0.25em] text-orange-300">
             Get Involved
           </p>
@@ -523,7 +523,7 @@ export default function Home() {
 
           
             <a href="/contact"
-            className="mt-8 inline-block rounded-full bg-[#ed761d] px-8 py-4 font-semibold transition hover:bg-[#d96312]"
+            className="mt-8 inline-block rounded-full bg-brand-orange px-8 py-4 font-semibold transition hover:bg-brand-orange-dark"
           >
             Contact Our Team
           </a>
@@ -533,11 +533,11 @@ export default function Home() {
       {/* Contact */}
       <section id="contact" className="border-t border-slate-200 px-6 py-24 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
-          <p className="text-sm font-bold uppercase tracking-[0.25em] text-[#ed761d]">
+          <p className="text-sm font-bold uppercase tracking-[0.25em] text-brand-orange">
             Contact
           </p>
 
-          <h2 className="mt-4 text-4xl font-bold text-[#123f49] md:text-5xl">
+          <h2 className="mt-4 text-4xl font-bold text-brand-teal md:text-5xl">
             Connect with Music Heals Sierra Leone.
           </h2>
 

@@ -71,11 +71,11 @@ export default function ContactPage() {
   }
 
   return (
-    <main className="min-h-screen bg-[#f7f9f8] text-slate-900">
+    <main className="min-h-screen bg-brand-cream text-slate-900">
             <SiteHeader />
 
       {/* Page Header */}
-      <section className="bg-[#123f49] px-6 py-20 text-white lg:px-8">
+      <section className="bg-brand-teal px-6 py-20 text-white lg:px-8">
         <div className="mx-auto max-w-5xl text-center">
           <p className="text-sm font-bold uppercase tracking-[0.28em] text-orange-300">
             Contact Music Heals Sierra Leone
@@ -97,7 +97,7 @@ export default function ContactPage() {
       <section className="px-6 py-20 lg:px-8">
         <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[0.85fr_1.15fr]">
           {/* Contact Information */}
-          <aside className="rounded-[2rem] bg-[#123f49] p-8 text-white md:p-10">
+          <aside className="rounded-[2rem] bg-brand-teal p-8 text-white md:p-10">
             <p className="text-sm font-bold uppercase tracking-[0.25em] text-orange-300">
               Contact Information
             </p>
@@ -157,7 +157,7 @@ export default function ContactPage() {
                   href={MAP_URL}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-4 inline-flex rounded-full border border-white/30 px-5 py-2.5 text-sm font-semibold transition hover:bg-white hover:text-[#123f49]"
+                  className="mt-4 inline-flex rounded-full border border-white/30 px-5 py-2.5 text-sm font-semibold transition hover:bg-white hover:text-brand-teal"
                 >
                   View on Google Maps
                 </a>
@@ -188,7 +188,7 @@ export default function ContactPage() {
                   href="https://www.facebook.com/share/1FMoGGTWmq/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="rounded-full border border-white/25 px-4 py-2 text-sm transition hover:bg-white hover:text-[#123f49]"
+                  className="rounded-full border border-white/25 px-4 py-2 text-sm transition hover:bg-white hover:text-brand-teal"
                 >
                   Facebook
                 </a>
@@ -197,7 +197,7 @@ export default function ContactPage() {
                   href="https://www.instagram.com/musicheals0000"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="rounded-full border border-white/25 px-4 py-2 text-sm transition hover:bg-white hover:text-[#123f49]"
+                  className="rounded-full border border-white/25 px-4 py-2 text-sm transition hover:bg-white hover:text-brand-teal"
                 >
                   Instagram
                 </a>
@@ -206,7 +206,7 @@ export default function ContactPage() {
                   href="https://www.linkedin.com/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="rounded-full border border-white/25 px-4 py-2 text-sm transition hover:bg-white hover:text-[#123f49]"
+                  className="rounded-full border border-white/25 px-4 py-2 text-sm transition hover:bg-white hover:text-brand-teal"
                 >
                   LinkedIn
                 </a>
@@ -219,11 +219,11 @@ export default function ContactPage() {
             id="contact-form"
             className="rounded-[2rem] border border-slate-200 bg-white p-8 shadow-sm md:p-10"
           >
-            <p className="text-sm font-bold uppercase tracking-[0.25em] text-[#ed761d]">
+            <p className="text-sm font-bold uppercase tracking-[0.25em] text-brand-orange">
               Send Us a Message
             </p>
 
-            <h2 className="mt-4 text-3xl font-bold text-[#123f49]">
+            <h2 className="mt-4 text-3xl font-bold text-brand-teal">
               How can we help?
             </h2>
 
@@ -252,7 +252,7 @@ export default function ContactPage() {
                     type="text"
                     required
                     placeholder="Enter your full name"
-                    className="w-full rounded-xl border border-slate-300 bg-white px-4 py-3.5 outline-none transition focus:border-[#ed761d] focus:ring-2 focus:ring-orange-100"
+                    className="w-full rounded-xl border border-slate-300 bg-white px-4 py-3.5 outline-none transition focus:border-brand-orange focus:ring-2 focus:ring-orange-100"
                   />
                 </div>
 
@@ -270,7 +270,7 @@ export default function ContactPage() {
                     type="email"
                     required
                     placeholder="you@example.com"
-                    className="w-full rounded-xl border border-slate-300 bg-white px-4 py-3.5 outline-none transition focus:border-[#ed761d] focus:ring-2 focus:ring-orange-100"
+                    className="w-full rounded-xl border border-slate-300 bg-white px-4 py-3.5 outline-none transition focus:border-brand-orange focus:ring-2 focus:ring-orange-100"
                   />
                 </div>
               </div>
@@ -292,7 +292,7 @@ export default function ContactPage() {
                   name="phone"
                   type="tel"
                   placeholder="+232 ..."
-                  className="w-full rounded-xl border border-slate-300 bg-white px-4 py-3.5 outline-none transition focus:border-[#ed761d] focus:ring-2 focus:ring-orange-100"
+                  className="w-full rounded-xl border border-slate-300 bg-white px-4 py-3.5 outline-none transition focus:border-brand-orange focus:ring-2 focus:ring-orange-100"
                 />
               </div>
 
@@ -310,7 +310,7 @@ export default function ContactPage() {
                   name="reason"
                   required
                   defaultValue=""
-                  className="w-full rounded-xl border border-slate-300 bg-white px-4 py-3.5 outline-none transition focus:border-[#ed761d] focus:ring-2 focus:ring-orange-100"
+                  className="w-full rounded-xl border border-slate-300 bg-white px-4 py-3.5 outline-none transition focus:border-brand-orange focus:ring-2 focus:ring-orange-100"
                 >
                   <option value="" disabled>
                     Select a reason
@@ -341,7 +341,7 @@ export default function ContactPage() {
                   type="text"
                   required
                   placeholder="Briefly describe your enquiry"
-                  className="w-full rounded-xl border border-slate-300 bg-white px-4 py-3.5 outline-none transition focus:border-[#ed761d] focus:ring-2 focus:ring-orange-100"
+                  className="w-full rounded-xl border border-slate-300 bg-white px-4 py-3.5 outline-none transition focus:border-brand-orange focus:ring-2 focus:ring-orange-100"
                 />
               </div>
 
@@ -360,7 +360,7 @@ export default function ContactPage() {
                   required
                   rows={7}
                   placeholder="Tell us how we can help..."
-                  className="w-full resize-y rounded-xl border border-slate-300 bg-white px-4 py-3.5 outline-none transition focus:border-[#ed761d] focus:ring-2 focus:ring-orange-100"
+                  className="w-full resize-y rounded-xl border border-slate-300 bg-white px-4 py-3.5 outline-none transition focus:border-brand-orange focus:ring-2 focus:ring-orange-100"
                 />
               </div>
 
@@ -370,7 +370,7 @@ export default function ContactPage() {
                 name="consent"
                 type="checkbox"
                 required
-                className="mt-1 h-4 w-4 accent-[#ed761d]"
+                className="mt-1 h-4 w-4 accent-brand-orange"
                 />
 
                 <span className="text-sm leading-6 text-slate-600">
@@ -384,7 +384,7 @@ export default function ContactPage() {
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full rounded-xl bg-[#ed761d] px-6 py-4 font-bold text-white transition hover:bg-[#d96312] disabled:cursor-not-allowed disabled:opacity-60"
+                className="w-full rounded-xl bg-brand-orange px-6 py-4 font-bold text-white transition hover:bg-brand-orange-dark disabled:cursor-not-allowed disabled:opacity-60"
                         >
                 {isSubmitting ? "Sending..." : "Send Message"}
             </button>
@@ -410,11 +410,11 @@ export default function ContactPage() {
         <div className="mx-auto max-w-7xl rounded-[2rem] border border-orange-200 bg-orange-50 p-8 md:p-10">
           <div className="grid gap-8 lg:grid-cols-[1fr_auto] lg:items-center">
             <div>
-              <p className="text-sm font-bold uppercase tracking-[0.25em] text-[#ed761d]">
+              <p className="text-sm font-bold uppercase tracking-[0.25em] text-brand-orange">
                 Safeguarding
               </p>
 
-              <h2 className="mt-3 text-3xl font-bold text-[#123f49]">
+              <h2 className="mt-3 text-3xl font-bold text-brand-teal">
                 Need to report a safeguarding concern?
               </h2>
 
@@ -429,14 +429,14 @@ export default function ContactPage() {
             <div className="flex flex-col gap-3">
               <a
                 href="tel:+23270347228"
-                className="rounded-full bg-[#123f49] px-6 py-3 text-center font-semibold text-white transition hover:bg-[#0b3037]"
+                className="rounded-full bg-brand-teal px-6 py-3 text-center font-semibold text-white transition hover:bg-brand-teal-dark"
               >
                 Call +232 70347228
               </a>
 
               <a
                 href="mailto:musichealsinitiativesierraleon@gmail.com"
-                className="rounded-full border border-[#123f49] px-6 py-3 text-center font-semibold text-[#123f49] transition hover:bg-[#123f49] hover:text-white"
+                className="rounded-full border border-brand-teal px-6 py-3 text-center font-semibold text-brand-teal transition hover:bg-brand-teal hover:text-white"
               >
                 Email Safeguarding
               </a>
@@ -452,11 +452,11 @@ export default function ContactPage() {
       >
         <div className="mx-auto max-w-7xl">
           <div className="mx-auto max-w-3xl text-center">
-            <p className="text-sm font-bold uppercase tracking-[0.25em] text-[#ed761d]">
+            <p className="text-sm font-bold uppercase tracking-[0.25em] text-brand-orange">
               Get Involved
             </p>
 
-            <h2 className="mt-4 text-4xl font-bold text-[#123f49] md:text-5xl">
+            <h2 className="mt-4 text-4xl font-bold text-brand-teal md:text-5xl">
               There are different ways to support our mission.
             </h2>
           </div>
@@ -468,7 +468,7 @@ export default function ContactPage() {
                 ♥
               </div>
 
-              <h3 className="mt-6 text-2xl font-bold text-[#123f49]">
+              <h3 className="mt-6 text-2xl font-bold text-brand-teal">
                 Support Our Work
               </h3>
 
@@ -479,7 +479,7 @@ export default function ContactPage() {
 
               <a
                 href="#contact-form"
-                className="mt-6 inline-block font-bold text-[#ed761d] hover:text-[#d96312]"
+                className="mt-6 inline-block font-bold text-brand-orange hover:text-brand-orange-dark"
               >
                 Donation Enquiry →
               </a>
@@ -491,7 +491,7 @@ export default function ContactPage() {
                 ♫
               </div>
 
-              <h3 className="mt-6 text-2xl font-bold text-[#123f49]">
+              <h3 className="mt-6 text-2xl font-bold text-brand-teal">
                 Volunteer With Us
               </h3>
 
@@ -502,7 +502,7 @@ export default function ContactPage() {
 
               <a
                 href="#contact-form"
-                className="mt-6 inline-block font-bold text-[#ed761d] hover:text-[#d96312]"
+                className="mt-6 inline-block font-bold text-brand-orange hover:text-brand-orange-dark"
               >
                 Volunteer Enquiry →
               </a>
@@ -514,7 +514,7 @@ export default function ContactPage() {
                 ✦
               </div>
 
-              <h3 className="mt-6 text-2xl font-bold text-[#123f49]">
+              <h3 className="mt-6 text-2xl font-bold text-brand-teal">
                 Partner With Us
               </h3>
 
@@ -525,7 +525,7 @@ export default function ContactPage() {
 
               <a
                 href="#contact-form"
-                className="mt-6 inline-block font-bold text-[#ed761d] hover:text-[#d96312]"
+                className="mt-6 inline-block font-bold text-brand-orange hover:text-brand-orange-dark"
               >
                 Partnership Enquiry →
               </a>
@@ -533,14 +533,14 @@ export default function ContactPage() {
           </div>
 
           {/* Secondary Actions */}
-          <div className="mt-8 flex flex-col items-center justify-center gap-4 rounded-3xl bg-[#f5f8f8] p-8 sm:flex-row">
-            <span className="font-semibold text-[#123f49]">
+          <div className="mt-8 flex flex-col items-center justify-center gap-4 rounded-3xl bg-brand-cream p-8 sm:flex-row">
+            <span className="font-semibold text-brand-teal">
               Other ways to connect:
             </span>
 
             <a
               href="#contact-form"
-              className="rounded-full border border-[#123f49] px-5 py-2.5 text-sm font-semibold text-[#123f49] transition hover:bg-[#123f49] hover:text-white"
+              className="rounded-full border border-brand-teal px-5 py-2.5 text-sm font-semibold text-brand-teal transition hover:bg-brand-teal hover:text-white"
             >
               Sponsor a Program
             </a>
@@ -549,7 +549,7 @@ export default function ContactPage() {
               href={MAP_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-full border border-[#123f49] px-5 py-2.5 text-sm font-semibold text-[#123f49] transition hover:bg-[#123f49] hover:text-white"
+              className="rounded-full border border-brand-teal px-5 py-2.5 text-sm font-semibold text-brand-teal transition hover:bg-brand-teal hover:text-white"
             >
               Arrange a Visit
             </a>
