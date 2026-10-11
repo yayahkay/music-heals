@@ -743,7 +743,7 @@ export default function GalleryPage() {
                 {selectedItem.caption}
               </p>
 
-              <div className="mt-4 flex flex-col gap-1 text-sm text-slate-300-row sm:gap-6">
+              <div className="mt-4 flex flex-col gap-1 text-sm text-slate-300 sm:flex-row sm:gap-6">
                 <span>{selectedItem.date}</span>
                 <span>
                   Credit: {selectedItem.credit}
