@@ -1,8 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
+import type { Metadata } from "next";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 
+export const metadata: Metadata = {
+  title: "About Us",
+  description:
+    "Founded in Freetown in 2017 by Simeon Bangura, Music Heals Initiative Sierra Leone uses music for healing, rehabilitation, education and opportunity.",
+};
 export default function AboutPage() {
   return (
     <main className="min-h-screen bg-[#07101d] text-white">

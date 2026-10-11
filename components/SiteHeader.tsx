@@ -21,7 +21,7 @@ export default function SiteHeader() {
   const [menuOpen, setMenuOpen] = useState(false); // is the phone menu open?
 
   return (
-    <header className="sticky top-0 z-50 border-b border-white/10 bg-[#07111f]/95 backdrop-blur">
+    <header className="sticky top-0 z-50 border-b border-white/10 bg-brand-teal/95 backdrop-blur">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
         {/* Logo */}
         <Link href="/" onClick={() => setMenuOpen(false)}>
@@ -44,8 +44,8 @@ export default function SiteHeader() {
                 key={link.href}
                 href={link.href}
                 aria-current={isActive ? "page" : undefined}
-                className={`rounded-lg px-3 py-2 text-base font-medium transition hover:bg-white/10 hover:text-[#f2b900] ${
-                  isActive ? "text-[#f2b900]" : "text-white"
+                className={`rounded-lg px-3 py-2 text-base font-medium transition hover:bg-white/10 hover:text-brand-orange-light ${
+                  isActive ? "text-brand-orange-light" : "text-white"
                 }`}
               >
                 {link.label}
@@ -58,7 +58,7 @@ export default function SiteHeader() {
           {/* Get Involved button — hidden on the smallest phones */}
           <Link
             href="/contact#get-involved"
-            className="hidden rounded-full bg-[#f2b900] px-5 py-2.5 text-sm font-semibold text-[#07111f] transition hover:bg-amber-300 sm:inline-block"
+            className="hidden rounded-full bg-brand-orange px-5 py-2.5 text-sm font-semibold text-brand-teal-dark transition hover:bg-brand-orange-light sm:inline-block"
           >
             Get Involved
           </Link>
@@ -109,7 +109,7 @@ export default function SiteHeader() {
                     onClick={() => setMenuOpen(false)}
                     aria-current={isActive ? "page" : undefined}
                     className={`block rounded-lg px-3 py-3 text-lg font-medium transition hover:bg-white/10 ${
-                      isActive ? "text-[#f2b900]" : "text-white"
+                      isActive ? "text-brand-orange-light" : "text-white"
                     }`}
                   >
                     {link.label}
@@ -122,7 +122,7 @@ export default function SiteHeader() {
           <Link
             href="/contact#get-involved"
             onClick={() => setMenuOpen(false)}
-            className="mt-4 block rounded-full bg-[#f2b900] px-5 py-3 text-center font-semibold text-[#07111f]"
+            className="mt-4 block rounded-full bg-brand-orange px-5 py-3 text-center font-semibold text-brand-teal-dark transition hover:bg-brand-orange-light" 
           >
             Get Involved
           </Link>

@@ -15,7 +15,7 @@ export default function SiteFooter() {
   const year = new Date().getFullYear(); // updates automatically every year
 
   return (
-    <footer className="border-t border-white/10 bg-[#050b14] text-white">
+    <footer className="border-t border-white/10 bg-brand-teal-dark text-white">
       <div className="mx-auto grid max-w-7xl gap-12 px-6 py-16 sm:grid-cols-2 lg:grid-cols-4 lg:px-8">
         {/* Column 1: Logo and short description (takes 2 columns on large screens) */}
         <div className="sm:col-span-2">
@@ -34,7 +34,7 @@ export default function SiteFooter() {
             empowerment and social inclusion across Sierra Leone since 2017.
           </p>
 
-          <p className="mt-4 text-xs font-semibold uppercase tracking-[0.28em] text-[#f2b900]">
+          <p className="mt-4 text-xs font-semibold uppercase tracking-[0.28em] text-brand-orange-light">
             Music. Purpose. Empowerment.
           </p>
         </div>
@@ -50,7 +50,7 @@ export default function SiteFooter() {
               <li key={link.href}>
                 <Link
                   href={link.href}
-                  className="text-slate-200 transition hover:text-[#f2b900]"
+                  className="text-slate-200 transition hover:text-brand-orange-light"
                 >
                   {link.label}
                 </Link>
@@ -69,13 +69,13 @@ export default function SiteFooter() {
             <li>
               <a
                 href="mailto:musichealsinitiativesierraleon@gmail.com"
-                className="break-all transition hover:text-[#f2b900]"
+                className="break-all transition hover:text-brand-orange-light"
               >
                 musichealsinitiativesierraleon@gmail.com
               </a>
             </li>
             <li>
-              <a href="tel:+23276967247" className="transition hover:text-[#f2b900]">
+              <a href="tel:+23276967247" className="transition hover:text-brand-orange-light">
                 +232 76 967247
               </a>
             </li>
@@ -90,7 +90,7 @@ export default function SiteFooter() {
               href="https://www.facebook.com/share/1FMoGGTWmq/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-slate-200 transition hover:text-[#f2b900]"
+              className="text-slate-200 transition hover:text-brand-orange-light"
             >
               Facebook
             </a>
@@ -98,7 +98,7 @@ export default function SiteFooter() {
               href="https://www.instagram.com/musicheals0000"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-slate-200 transition hover:text-[#f2b900]"
+              className="text-slate-200 transition hover:text-brand-orange-light"
             >
               Instagram
             </a>
