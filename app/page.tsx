@@ -351,10 +351,11 @@ export default function Home() {
           </div>
 
           <div className="grid gap-8 lg:grid-cols-3">
-            <article className="overflow-hidden rounded-3xl bg-slate-950 shadow-lg">
+                        <article className="overflow-hidden rounded-3xl bg-slate-950 shadow-lg">
               <video
                 controls
-                preload="metadata"
+                preload="none"
+                poster="/images/gallery/gallery-guitar-musician-portrait.jpg"
                 className="aspect-video w-full bg-black object-cover"
               >
                 <source
@@ -375,7 +376,8 @@ export default function Home() {
             <article className="overflow-hidden rounded-3xl bg-slate-950 shadow-lg">
               <video
                 controls
-                preload="metadata"
+                preload="none"
+                poster="/images/programs/program-keyboard-training.jpg"
                 className="aspect-video w-full bg-black object-cover"
               >
                 <source
@@ -396,7 +398,8 @@ export default function Home() {
             <article className="overflow-hidden rounded-3xl bg-slate-950 shadow-lg">
               <video
                 controls
-                preload="metadata"
+                preload="none"
+                poster="/images/programs/program-trumpet-training.jpg"
                 className="aspect-video w-full bg-black object-cover"
               >
                 <source
